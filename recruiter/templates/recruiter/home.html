@@ -1,0 +1,9 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+{% for a in applicants %}
+    <a href="{% url 'recruiter_resume' a.id %}">Applicant (id) {{a.id}}</a>
+{% endfor %}
+
+{% endblock content %}

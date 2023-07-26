@@ -1,0 +1,10 @@
+{ 
+    { 
+        { "Contact Information":
+            { "Name": "Carlos Gustavo Salas Flores", 
+                "School": "Duke University/Duke Kunshan University", 
+                "Degree": "Bachelor of Science in Data Science & Interdisciplinary Studies", 
+                "GPA": "3.7/4.0" },
+            { "Experience": 
+                { 
+                    { "Company Name":"Amazon (May 2022 - Aug 2022)", "Projects": {"Customer Segmentation, Designed ML Pipelines, and Built Analysis Packages"}, "Accomplishments": {"Increased Availability by 5%, Handled 10PB+ of data, Identified customers with 97% accuracy, and Saved engineers 100+ hours of work"} }, { "Company Name":"Sanford School of Public Policy at Duke University (Jan 2022 — May 2022)", "Projects": {"Designed social policies"}, "Accomplishments": {"Compiled more than 15,000,000 data-points and produced infographics and dashboards"} }, { "Company Name":"Data Science Research Center at Duke Kunshan University (May 2021 — May 2022)", "Projects": {"Designed social policies"}, "Accomplishments": {"Compiled more than 15,000,000 data-points and produced infographics and dashboards"} } } },{ "Skills": {"Cloud Computing", "Machine Learning", "Data Science", "Data Analysis", "Backend Engineering"} },{ "Technologies": {"EC2", "ECR", "Docker", "Lambda", "S3", "Git"} },{ "Libraries": {"NumPy", "SciPy", "Pandas", "Scikit-learn", "PyTorch", "Matplotlib", "Seaborn", "ggplot"} },{ "Awards": {"Alibaba GET National Finalist", "IBM AI Engineering Professional Certificate"} } } }

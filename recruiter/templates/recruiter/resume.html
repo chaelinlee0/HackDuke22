@@ -1,0 +1,50 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+{% for ap1 in applicant %}
+    {% comment %} sections {% endcomment %}
+    <div class='container'>
+        {% for k1, v1 in ap1.items %}
+            {% comment %} secition name {% endcomment %}
+            <div clas="row">
+                <p class='fs-4'>
+                    {{k1}}
+                </p>
+            </div>
+            <div clas="row">
+                {% for v2 in v1 %}
+                    {% for k3, v3 in v2.items %}
+                    <p class='fs-6'>{{k3}}:</p>
+                        {% for k4 in v3 %}
+                            {% for k5, v5 in k4.items %}
+                                {{k5}}:
+                                {{v5}}
+                            {% empty %}
+                                {{K4}}
+                            {% endfor %}
+                            <br>
+                        {% empty %}
+                            {{v3}}
+                        {% endfor %}
+                        <br>
+                        <br>
+                    {% empty %}
+                        {{v2}}
+                        <br>
+                    {% endfor %}
+                {% empty %}
+                    {{v1}}
+                    <br>
+                {% endfor %}
+            </div>
+            <br>
+    </div>
+    {% empty %}
+        {{ap1}}
+    {% endfor %}
+{% empty %}
+    {{applicant}}
+{% endfor %}
+
+{% endblock content %}
